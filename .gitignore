@@ -1,0 +1,30 @@
+# secrets and environments
+.env
+*.env
+.venv/
+venv/
+__pycache__/
+*.pyc
+node_modules/
+# data and outputs (never published)
+data/
+outputs/
+raw/
+diagnostics/
+*.csv
+*.xlsx
+*.json
+!package.json
+# media
+*.mp4
+*.mov
+*.wav
+*.mp3
+*.png
+*.jpg
+*.jpeg
+*.webp
+*.pdf
+*.docx
+# system
+.DS_Store
